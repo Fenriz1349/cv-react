@@ -272,7 +272,7 @@
         "screenshot":"../assets/cvreactScreenshot.png",
         "frameworks" : "React",
         "content" :"Projet personnel de CV en ligne. Un bac à sable pour m'entrainer sur React et un moyen de me présenter.",
-        "linkGithub" : "https://github.com/Fenriz1349/cvreact"
+        "linkGithub" : "https://github.com/Fenriz1349/cv-react"
         },
         {"name":"DoItYouPlan",
         "screenshot":"../assets/doItYourPlanScreenshot1.png",
