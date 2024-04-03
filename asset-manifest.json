@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/cv-react/static/css/main.42287fb4.css",
+    "main.js": "/cv-react/static/js/main.ac69da5e.js",
+    "static/media/cardFinderScreenshot.png": "/cv-react/static/media/cardFinderScreenshot.a4969449017a3eea62b7.png",
+    "static/media/logoJC.jpg": "/cv-react/static/media/logoJC.00ecfeb31e3ff3ac3893.jpg",
+    "static/media/cvReactScreenshot.png": "/cv-react/static/media/cvReactScreenshot.39a891bccbdcfc8e82d4.png",
+    "static/media/cvJSScreenshot.png": "/cv-react/static/media/cvJSScreenshot.68e926ed73111e772efe.png",
+    "static/media/doItYourPlanScreenshot1.png": "/cv-react/static/media/doItYourPlanScreenshot1.9d7d1157de38b1cf310d.png",
+    "static/media/EasyconomyScreenshot.png": "/cv-react/static/media/EasyconomyScreenshot.06e08087a98fe7920848.png",
+    "static/media/backgroundTitle.jpg": "/cv-react/static/media/backgroundTitle.42f3f73b58c593eca9a2.jpg",
+    "static/media/lotoScreenshot.png": "/cv-react/static/media/lotoScreenshot.7a7cd6d492a5fc4185a4.png",
+    "static/media/backendDev.jpg": "/cv-react/static/media/backendDev.d5c393ef4660c9471055.jpg",
+    "static/media/codewarsLogo.png": "/cv-react/static/media/codewarsLogo.0aacb9e55971dcbe2c5c.png",
+    "static/media/calculatriceScreenshot.png": "/cv-react/static/media/calculatriceScreenshot.675b3d2bab24dfb21630.png",
+    "static/media/githubLogo.png": "/cv-react/static/media/githubLogo.ddf4326123de8dcf7bd0.png",
+    "static/media/linkedinLogo.png": "/cv-react/static/media/linkedinLogo.c57629027e3f0bc4c5b0.png",
+    "index.html": "/cv-react/index.html",
+    "main.42287fb4.css.map": "/cv-react/static/css/main.42287fb4.css.map",
+    "main.ac69da5e.js.map": "/cv-react/static/js/main.ac69da5e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42287fb4.css",
+    "static/js/main.ac69da5e.js"
+  ]
+}
