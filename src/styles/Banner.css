@@ -9,30 +9,33 @@
     z-index: 1000;
     background-color: var(--lightBlue);
     margin-top: 0;
-    margin-right: 5px;
-    height: 95px;
+    margin-right: 5vh;
+    height: 10vh;
 }
-
+.mobileHome {
+    display: none;
+}
 .logoBanner{
     padding-top: 0px;
-    width : 90px;
-    height : 90px;
+    width : 9vh;
 }
 .logoBanner:hover{
     transform: scale(1.2);
 }
 
 .banner .logo{
-    width : 60px;
-    height : 60px;
-    margin-top: 5px;
+    width : 6vh;
+    margin-top: 0.5vh;
+}
+.mobile-menu-toggle {
+    display: none;
 }
 
 .logoSocial{
-    width : 50px;
-    height : 50px;
-    margin-top: 10px;
-    margin-right: 2px;
+    width : 5vh;
+    height : 5vh;
+    margin-top: 1vh;
+    margin-right: 0.2vh;
 }
 
 .logoSocial:hover {
@@ -40,11 +43,13 @@
 }
 
 .nav-links {
+    margin-right: 2vh;
+  }
+.nav-links ul {
     list-style: none; 
     display: flex;
-    margin-right: 20px;
-  }
-
+    flex-direction: row;
+}
 .nav-links a {
     color: var(--blackBackground);
     font-size: 24px;
@@ -66,7 +71,73 @@
 .scroll-to-top-button {
     background-color: transparent;
     border: none;
-    padding: 0; /* Supprime le rembourrage */
-    cursor: pointer; /* Change le curseur en pointeur au survol */
-    outline: none; /* Supprime la bordure autour du bouton lorsqu'il est en focus */
+    padding: 0;
+    cursor: pointer; 
+    outline: none; 
   }
+
+@media only screen and (max-width: 600px) {
+    .banner {
+        flex-direction: column;
+        height: max-content;
+        width: max-content;
+    }
+
+    .mobileHome {
+        display: flex;
+    }
+    .logoBanner {
+        display: none;
+    }
+    .social-banner {
+        display: none; /* Cacher le menu social sur les petits écrans */
+    }
+
+    .nav-links {
+        display: none; 
+    }
+
+    .nav-linksopen {
+        display: flex;
+    }
+    .nav-linksopen ul {
+        list-style: none; 
+    }
+
+    .nav-linksopen a {
+        color: var(--blackBackground);
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration:none;
+    }
+
+    .social-banneropen {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoSocial{
+        width : 4vh;
+        margin-top: 0.2vh;
+    }
+
+    .banner .logo{
+        width : 5vh;
+        margin-top: 0.2vh;
+        margin-left: 0vh;
+    }
+
+    .mobile-menu-toggle {
+        width: 8vh;
+        display: flex;
+        background-color: transparent;
+        border: none;
+        padding: 5;
+        cursor: pointer; 
+        outline: none; 
+    }
+    
+    .mobile-menu-toggle img {
+        width: 5vh;
+    }
+}

@@ -1,7 +1,7 @@
 import "../styles/LanguageItem.css"; 
 import LinkButton from "./LinkButton";
 
-function FrameworkItem({ logo,name,linkGithub,linkCertif }) {
+function FrameworkItem({ logo,name,linkGithub }) {
     return (
       <div className="language-item">
         <div className="top-section">
@@ -12,10 +12,6 @@ function FrameworkItem({ logo,name,linkGithub,linkCertif }) {
         {linkGithub !== "" && <LinkButton 
             link={linkGithub}
             socialName="GitHub"
-        />}
-          {linkCertif !== "" && <LinkButton 
-            link={linkCertif}
-            socialName="Openclassrooms"
         />}
         </div>
       </div>

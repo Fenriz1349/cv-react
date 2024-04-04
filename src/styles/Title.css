@@ -14,5 +14,13 @@
 
 .title h1,
 .title h2 {
-  margin: 5px 0; /* Réduit l'espace entre les titres */
+  margin: 5px 0; 
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    height: 25vh; 
+    background-size:cover;
+  }
+
 }

@@ -3,7 +3,7 @@ import "../styles/Title.css";
 
 function Title() {
   return (
-    <div className='title'>
+    <div className='title' id='title'>
      <h1>Julien Cotte</h1>
      <h2>{jsonData.francais.poste}</h2>
     </div>

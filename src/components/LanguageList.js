@@ -20,7 +20,6 @@ function LanguagesList() {
           name={Language.name}
           logo2={cssLogo}
           linkGithub={Language.linkGithub}
-          linkCertif={Language.linkCertif}
         />
       ))}
     </div>

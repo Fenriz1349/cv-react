@@ -1,15 +1,12 @@
 .language-item{
     background-color: var(--ligthBlackBackground);
-    width: 250px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    width: 20vh;
+    height: 35vh;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
     display: flex;
     flex-flow: column wrap;
-    justify-content: space-between;
-    width: 200px;
-    height: 350px;
-    margin-left: 50px;
-    margin-bottom: 50px;    
+    justify-content: space-between;  
 }
 .language-item h4 {
     margin-bottom: 0px;

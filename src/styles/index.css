@@ -43,10 +43,23 @@ p{
 }
 
 .logo {
-  width: 75px;
-  height: 75px;
+  width: 7vh;
 }
 
 .logo:hover {
   transform: scale(1.3);
+}
+
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 36px;
+  }
+
+  h2{
+    font-size: 30px;
+  }
+
+  h3{
+    font-size: 24px;
+  }
 }

@@ -1,12 +1,32 @@
-.intro p{
+.intro p {
     font-size: 20px;
     padding: 20px;
     display: inline-block;
 }
-.intro-content{
+
+.intro-content {
     display: flex;
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .intro-content img {
-    height: 200px;
+    height: 20vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .intro-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro-content img {
+        height: 18vh;
+        width: 15vh;
+        margin-bottom: 1vh; 
+    }
+
+    .intro p {
+        font-size: 16px;
+    }
 }

@@ -1,6 +1,5 @@
 import "../styles/LinkButton.css"; 
 import githubWhiteLogo from "../assets/githubWhiteLogo.png"
-import openclassroomsLogo from "../assets/openclassroomsLogo.png"
 
 function LinkButton({ link, socialName }) {
     const handleClick = () => {
@@ -16,7 +15,7 @@ function LinkButton({ link, socialName }) {
             </>
         ):(
             <>
-            <img src={openclassroomsLogo} alt={socialName} className="logoButton" />
+            <img src={githubWhiteLogo} alt={socialName} className="logoButton" />
             <p>{socialName}</p>
             </>
         )

@@ -1,7 +1,7 @@
 import "../styles/LanguageItem.css"; 
 import LinkButton from "./LinkButton";
 
-function LanguageItem({ logo, name, logo2, linkGithub, linkCertif }) {
+function LanguageItem({ logo, name, logo2, linkGithub }) {
   return (
     <div className="language-item">
       <div className="top-section">
@@ -19,10 +19,6 @@ function LanguageItem({ logo, name, logo2, linkGithub, linkCertif }) {
         {linkGithub !== "" && <LinkButton 
             link={linkGithub}
             socialName="GitHub"
-        />}
-        {linkCertif !== "" && <LinkButton 
-            link={linkCertif}
-            socialName="Openclassrooms"
         />}
       </div>
     </div>

@@ -206,65 +206,57 @@
     "languages":[
         {"name":"Swift",
         "logo":"../assets/swiftLogo.png",
-        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=swift&sort=",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/1696019247"
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=swift&sort="
         },
         {"name":"Python",
         "logo":"../assets/pythonLogo.png",
-        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=python&sort=",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/8057993737"
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=python&sort="
         },
         {"name":"Javascript",
         "logo":"../assets/javascriptLogo.png",
-        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=javascript&sort=",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/2045792275"
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=javascript&sort="
         },
         {"name":"Kotlin",
         "logo":"../assets/kotlinLogo.png",
-        "linkGithub" : "",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/9682213303"
+        "linkGithub" : ""
         },
         {"name":"SQL",
         "logo":"../assets/sqlLogo.png",
-        "linkGithub" : "",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/5167640348"
+        "linkGithub" : ""
         },
         {"name":"HTML5 et CSS3",
         "logo":"../assets/htmlLogo.png",
-        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=html&sort=",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/3207405707"
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=html&sort="
         },
         {"name":"TypeScript",
         "logo":"../assets/typescriptLogo.png",
-        "linkGithub" : "",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/4288292377"
+        "linkGithub" : ""
         }
     ],
     "frameworks":[
         {"name":"SwiftUI",
         "logo":"../assets/swiftuiLogo.png",
-        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=swift&sort=",
-        "linkCertif":""
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=swift&sort="
+        },
+        {"name":"SwiftChart /SwiftData",
+        "logo":"../assets/swiftuiLogo.png",
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=swift&sort="
         },
         {"name":"React",
         "logo":"../logo.svg",
-        "linkGithub" : "https://github.com/Fenriz1349/la-maison-jungle",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/5912403849"
-        },
-        {"name":"Numpy/ Pandas/ Matplotlib/ Seaborn",
-        "logo":"../assets/pandasLogo.png",
-        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=python&sort=",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/9923684471"
+        "linkGithub" : "https://github.com/Fenriz1349/la-maison-jungle"
         },
         {"name":"Git et Github",
         "logo":"../assets/githubLogo.png",
-        "linkGithub" : "",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/9472338171"
+        "linkGithub" : ""
         },
        {"name":"API Rest",
         "logo": "../assets/apiLogo.png",
-        "linkGithub" : "",
-        "linkCertif":"https://openclassrooms.com/fr/course-certificates/6358927299"
+        "linkGithub" : ""
+        },
+        {"name":"Numpy/ Pandas/ Matplotlib/ Seaborn",
+        "logo":"../assets/pandasLogo.png",
+        "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=python&sort="
         }
     ],
     "portfolio":[

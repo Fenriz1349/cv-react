@@ -1,8 +1,8 @@
 .softskill-item{
     background-color: var(--ligthBlackBackground);
-    width: 250px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    width: 25vh;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
 }
 .softskill-item h4 {
     margin-bottom: 0px;

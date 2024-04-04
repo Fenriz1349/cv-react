@@ -1,13 +1,11 @@
 .job-item{
     background-color: var(--ligthBlackBackground);
-    width: 250px;
-    margin-left: 50px;
-    margin-bottom: 50px;
+    width: 25vh;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
-    width: 400px;
-    margin-left: 50px;
-    margin-bottom: 50px;   
+    width: 40vh;
 }
 .job-item h4 {
     margin-bottom: 0px;

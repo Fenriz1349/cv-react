@@ -16,7 +16,6 @@ function FrameworkList() {
           logo={getLogo(framework.name)}
           name={framework.name}
           linkGithub={framework.linkGithub}
-          linkCertif={framework.linkCertif}
         />
       ))}
     </div>
@@ -25,8 +24,6 @@ function FrameworkList() {
 
 function getLogo(frameworkName) {
     switch (frameworkName) {
-      case 'SwiftUI':
-        return swiftuiLogo;
       case 'React':
         return reactLogo;
       case 'Numpy/ Pandas/ Matplotlib/ Seaborn':
@@ -36,7 +33,7 @@ function getLogo(frameworkName) {
       case 'API Rest':
         return apiLogo;
       default:
-        return null;
+        return swiftuiLogo;
     }
   }
 export default FrameworkList;

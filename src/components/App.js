@@ -6,7 +6,6 @@ import Language from './Language'
 import Portfolio from './Portfolio'
 import Diplomas from './Diplomas'
 import Jobs from './Jobs'
-import logoJC from '../assets/logoJC.jpg'
 
 function App() {
 

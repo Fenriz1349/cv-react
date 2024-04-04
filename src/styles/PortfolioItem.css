@@ -1,18 +1,18 @@
 .portfolio-item{
     background-color: var(--ligthBlackBackground);
-    margin-left: 50px;
-    margin-bottom: 50px;
+    margin-left: 5vh;
+    margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center; 
-    max-width: 510px;
+    max-width: 52vh;
 }
 .portfolio-item h4 {
     margin-bottom: 0px;
     margin-top: 0px;
 }
 .screenshot{
-    height: 300px;
-    max-width: 500px;
+    height: 30vh;
+    max-width: 50vh;
 }
