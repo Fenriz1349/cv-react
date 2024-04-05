@@ -1,4 +1,6 @@
+import { useState, useEffect } from 'react';
 import LanguageItem from './LanguageItem';
+import axios from 'axios';
 import jsonData from '../data/data.json'; 
 import swiftLogo from "../assets/swiftLogo.png";
 import pythonLogo from "../assets/pythonLogo.png";
@@ -11,15 +13,46 @@ import typescriptLogo from "../assets/typescriptLogo.png";
 import "../styles/LanguageList.css"; 
 
 function LanguagesList() {
+  const [languages, setLanguages] = useState([]);
+
+  useEffect(() => {
+    const fetchDataForLanguages = async () => {
+      const filteredLanguageData = jsonData.languages.filter(language => language.name !== 'HTML5 et CSS3');
+  
+      const languagesWithScores = filteredLanguageData.map(language => ({
+        ...language,
+        score: null
+      }));
+  
+      await Promise.all(languagesWithScores.map(async (language) => {
+        if (language.score === null) {
+          const response = await axios.get(`https://www.codewars.com/api/v1/users/Fenriz1349`);
+          const score = response.data.ranks.languages[language.name.toLowerCase()].score;
+          language.score = score;
+        }
+      }));
+      languagesWithScores.sort((a, b) => (b.score === null) - (a.score === null) || b.score - a.score);
+      
+      const htmlCssLanguage = jsonData.languages.find(language => language.name === 'HTML5 et CSS3');
+      languagesWithScores.push({ ...htmlCssLanguage, score: null });
+  
+      setLanguages(languagesWithScores);
+    };
+  
+    fetchDataForLanguages();
+  }, []);
+  
+
   return (
     <div className="language-list">
-      {jsonData.languages.map(Language => (
+      {languages.map((language, index) => (
         <LanguageItem
-          key={Language.name}
-          logo={getLogo(Language.name)}
-          name={Language.name}
-          logo2={cssLogo}
-          linkGithub={Language.linkGithub}
+          key={index}
+          logo={getLogo(language.name)}
+          name={language.name}
+          logo2={language.name === 'HTML5 et CSS3' ? cssLogo : null}
+          linkGithub={language.linkGithub}
+          score={language.score}
         />
       ))}
     </div>

@@ -2,7 +2,6 @@ import { useState, useEffect } from 'react';
 import axios from 'axios';
 
 function CodeWarsScores ({ nameCW }) {
-  const nameCWMini = nameCW.toLowerCase();
   const [rankName, setRankName] = useState(null);
   const [score, setScore] = useState(null);
 
@@ -10,7 +9,7 @@ function CodeWarsScores ({ nameCW }) {
     const fetchData = async () => {
       try {
         const response = await axios.get('https://www.codewars.com/api/v1/users/Fenriz1349');
-        const languageData = response.data.ranks.languages[nameCWMini];
+        const languageData = response.data.ranks.languages[nameCW.toLowerCase()];
         
         if (languageData) {
           setRankName(languageData.name);
@@ -24,7 +23,7 @@ function CodeWarsScores ({ nameCW }) {
     };
 
     fetchData();
-  }, [nameCWMini]);
+  }, [nameCW]);
 
   return (
     <div>

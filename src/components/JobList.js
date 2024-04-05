@@ -13,7 +13,7 @@ function JobList() {
     <div className="job-list">
       {jsonData.francais.Jobs.map(Job => (
         <JobItem
-          key={Job.name}
+          key={Job.name+Job.business}
           logo={getLogo(Job.name)}
           name={Job.name}
           business={Job.business}

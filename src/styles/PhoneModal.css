@@ -1,0 +1,28 @@
+/* PhoneModal.css */
+ .phone-modal {
+    position: fixed;
+    color: var(--whiteFontPrincipal);
+    left: 145vh; 
+    top: 10vh; 
+    transform: translate(-50%, 0); 
+    background-color: var(--ligthBlackBackground);
+    padding: 1vh;
+  }
+  
+  .phone-modal-content {
+    text-align: center;
+  }
+  
+  .phone-modal button {
+    align-items: center;
+    color: var(--whiteFontPrincipal);
+    background-color: var(--blackBackground);
+    border-radius: 15px;
+    padding: 1vh;
+    margin-top: 1vh;
+  }
+  
+  .phone-modal button:hover {
+    background-color: var(--darkBlueBackground); 
+  }
+  

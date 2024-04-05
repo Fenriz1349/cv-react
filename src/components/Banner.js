@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import PhoneModal from './PhoneModal';
 import logo from "../assets/logoJC.jpg";
 import mail from "../assets/mailLogo.png";
 import phone from "../assets/phoneLogo.png"
@@ -18,11 +19,20 @@ function scrollToTop() {
 
 function Banner() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isPhoneModalOpen, setIsPhoneModalOpen] = useState(false);
+  const [phoneModalPosition, setPhoneModalPosition] = useState({ x: 0, y: 0 });
 
   function toggleMobileMenu() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   }
 
+  function togglePhoneModal(event) {
+    setPhoneModalPosition({
+      x: event.target.getBoundingClientRect().left,
+      y: event.target.getBoundingClientRect().bottom + window.scrollY
+    });
+    setIsPhoneModalOpen(true);
+  }
   return (
     <div className="banner">
       <button onClick={scrollToTop} className="scroll-to-top-button">
@@ -58,8 +68,8 @@ function Banner() {
         </ul>
       </nav>
       <div className={`social-banner${isMobileMenuOpen ? 'open' : ''}`}>
-        <div>
-          <a href={`tel:${jsonData.informations.telephone}`}><img src={phone} alt="phone" className="logo" /></a>
+        <div onClick={togglePhoneModal}>
+          <img src={phone} alt="phone" className="logo" />
         </div>
         <div>
           <a href={`mailto:${jsonData.informations.mail}`}><img src={mail} alt="mail" className="logo" /></a>
@@ -74,6 +84,14 @@ function Banner() {
           <a href={jsonData.informations.codewars} rel="noreferrer" target="_blank"><img src={codewars} alt="codewars" className="logoSocial" /></a>
         </div>
       </div>
+
+      {isPhoneModalOpen && (
+        <PhoneModal
+          telephone={jsonData.informations.telephone}
+          position={{ left: phoneModalPosition.x, top: phoneModalPosition.y }}
+          togglePhoneModal={() => setIsPhoneModalOpen(false)}
+        />
+      )}
     </div>
   );
 }
