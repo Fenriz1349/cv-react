@@ -9,7 +9,7 @@
         "softskills" :[
             {"name":"Curiosité",
             "logo": "../assets/curiositeLogo.png",
-            "content": "J'aime comprendre le fonctionnement des choses et apprendre continuellement de nouvelles connaissances. C'est ce qui me passionne dans le développement, car il y a toujours des nouveautés à découvrir."
+            "content": "J'aime comprendre le fonctionnement des choses et continuer d'engranger de nouvelles compétences. C'est ce qui me passionne dans le développement, car il y a toujours des nouveautés à découvrir."
             },
             {"name":"Organisation",
             "logo": "../assets/organisationLogo.png",
@@ -21,7 +21,7 @@
             },
             {"name":"Diplomate",
             "logo": "../assets/diplomateLogo.png",
-            "content": "J'ai beaucoup travaillé dans la vente, et naturellement je cherche à trouver un compromis lors d'une mésentente. Dans tous les aspects de la vie une bonne communication est primordiale."
+            "content": "J'ai beaucoup travaillé dans la vente, et j'ai naturellement  appris à trouver un compromis lors d'une mésentente. Dans tous les aspects de la vie une bonne communication est primordiale."
             }
             ,{"name":"Polyvalent",
             "logo": "../assets/versatileLogo.png",

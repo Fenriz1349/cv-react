@@ -1,0 +1,55 @@
+.mail-modal {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    color: var(--whiteFontPrincipal);
+    right: 3vh; 
+    top: 10vh;
+    background-color: var(--ligthBlackBackground);
+    padding: 1vh;
+  }
+  
+  .mail-modal-content {
+    text-align: center;
+  }
+  .mail-modal-content h4 {
+    margin: 0vh;
+  }
+  .column {
+    display: flex;
+    flex-direction: column;
+}
+  .mail-modal button {
+    align-items: center;
+    color: var(--whiteFontPrincipal);
+    background-color: var(--blackBackground);
+    border-radius: 15px;
+    padding: 1vh;
+    margin-top: 1vh;
+  }
+  .mail-modal-textarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .mail-modal-textarea input,textarea {
+    color: var(--blackBackground);
+  }
+  .mail-modal button:hover {
+    background-color: var(--darkBlueBackground); 
+  }
+  
+  @media only screen and (max-width: 600px){
+    .mail-modal{
+        left: 10vh; 
+        top: 30vh; 
+        padding: 0.5vh;
+    }
+    .mail-modal-textarea{
+        flex-direction: column;
+    }
+    .mail-modal button {
+        padding: 1vh;
+        margin-top: 0.5vh;
+      }
+}

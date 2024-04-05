@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import PhoneModal from './PhoneModal';
+import MailModal from './MailModal';
 import logo from "../assets/logoJC.jpg";
 import mail from "../assets/mailLogo.png";
 import phone from "../assets/phoneLogo.png"
@@ -20,18 +21,17 @@ function scrollToTop() {
 function Banner() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isPhoneModalOpen, setIsPhoneModalOpen] = useState(false);
-  const [phoneModalPosition, setPhoneModalPosition] = useState({ x: 0, y: 0 });
+  const [isMailModalOpen, setIsMailModalOpen] = useState(false);
 
   function toggleMobileMenu() {
     setIsMobileMenuOpen(!isMobileMenuOpen);
   }
 
-  function togglePhoneModal(event) {
-    setPhoneModalPosition({
-      x: event.target.getBoundingClientRect().left,
-      y: event.target.getBoundingClientRect().bottom + window.scrollY
-    });
-    setIsPhoneModalOpen(true);
+  function togglePhoneModal() {
+    setIsPhoneModalOpen(!isPhoneModalOpen);
+  }
+  function toggleMailModal() {
+    setIsMailModalOpen(!isMailModalOpen);
   }
   return (
     <div className="banner">
@@ -71,9 +71,12 @@ function Banner() {
         <div onClick={togglePhoneModal}>
           <img src={phone} alt="phone" className="logo" />
         </div>
-        <div>
-          <a href={`mailto:${jsonData.informations.mail}`}><img src={mail} alt="mail" className="logo" /></a>
+        <div onClick={toggleMailModal}>
+          <img src={mail} alt="mail" className="logo" />
         </div>
+        {/* <div>
+          <a href={`mailto:${jsonData.informations.mail}`}><img src={mail} alt="mail" className="logo" /></a>
+        </div> */}
         <div>
           <a href={jsonData.informations.github} rel="noreferrer" target="_blank"><img src={github} alt="github" className="logoSocial" /></a>
         </div>
@@ -88,8 +91,13 @@ function Banner() {
       {isPhoneModalOpen && (
         <PhoneModal
           telephone={jsonData.informations.telephone}
-          position={{ left: phoneModalPosition.x, top: phoneModalPosition.y }}
-          togglePhoneModal={() => setIsPhoneModalOpen(false)}
+          togglePhoneModal={togglePhoneModal}
+        />
+      )}
+      {isMailModalOpen && (
+        <MailModal
+          mail={jsonData.informations.mail}
+          toggleMailModal={toggleMailModal}
         />
       )}
     </div>

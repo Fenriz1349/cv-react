@@ -1,18 +1,23 @@
 /* PhoneModal.css */
- .phone-modal {
+.phone-modal {
     position: fixed;
     color: var(--whiteFontPrincipal);
-    left: 145vh; 
-    top: 10vh; 
-    transform: translate(-50%, 0); 
-    background-color: var(--ligthBlackBackground);
+    right: 33vh; 
+    top: 10vh;
+    background-color: var(--ligthBlackBackground); 
     padding: 1vh;
-  }
+    width: max-content;
+}
   
   .phone-modal-content {
     text-align: center;
+    background-color: transparent;
+    
   }
-  
+  .phone-modal-content h4{
+    margin: 0;
+  }
+
   .phone-modal button {
     align-items: center;
     color: var(--whiteFontPrincipal);
@@ -26,3 +31,20 @@
     background-color: var(--darkBlueBackground); 
   }
   
+  @media only screen and (max-width: 600px){
+    .phone-modal{
+        left: 10vh; 
+        top: 38.5vh; 
+        padding: 0.5vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .phone-modal button {
+        padding: 1vh;
+        margin-top: 0.5vh;
+    }
+    .phone-modal-content p {
+        margin: 0;
+        white-space: nowrap; /* Empêche le contenu de passer à la ligne suivante */
+    }
+}
