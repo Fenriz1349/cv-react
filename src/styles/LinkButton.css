@@ -17,3 +17,12 @@
     background-color: var(--darkBlueBackground);
     transform: scale(1.1);
 }
+
+@media only screen and (max-width: 600px){
+    .linkButton {
+        padding: 1px;
+    }
+    .linkButton img {
+        height: 2.5vh;
+    }
+}

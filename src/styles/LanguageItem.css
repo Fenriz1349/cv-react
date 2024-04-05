@@ -1,7 +1,7 @@
 .language-item{
     background-color: var(--ligthBlackBackground);
     width: 20vh;
-    height: 35vh;
+    height: 28vh;
     margin-left: 5vh;
     margin-bottom: 5vh;
     display: flex;
@@ -19,15 +19,18 @@
 .top-section {
     display: flex;
     flex-direction: column;
-  }
+}
 
-  .bottom-section {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.bottom-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
 
-  .html {
-    display: flex;
-    margin-bottom: 0;
-  }
+.bottom-section span {
+  color: var(--lightBlue);
+}
+.html {
+  display: flex;
+  margin-bottom: 0;
+}

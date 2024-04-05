@@ -26,7 +26,7 @@ function getLogo(frameworkName) {
     switch (frameworkName) {
       case 'React':
         return reactLogo;
-      case 'Numpy/ Pandas/ Matplotlib/ Seaborn':
+      case 'Pandas/ Matplotlib/ Seaborn':
         return pandasLogo;
       case 'Git et Github':
         return githubLogo;

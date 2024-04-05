@@ -1,5 +1,6 @@
 import "../styles/LanguageItem.css"; 
 import LinkButton from "./LinkButton";
+import CodeWarsScores from "./CodeWarsScore";
 
 function LanguageItem({ logo, name, logo2, linkGithub }) {
   return (
@@ -16,6 +17,9 @@ function LanguageItem({ logo, name, logo2, linkGithub }) {
         <h4>{name}</h4>
       </div>
       <div className="bottom-section">
+          <CodeWarsScores
+          nameCW={name}
+          />
         {linkGithub !== "" && <LinkButton 
             link={linkGithub}
             socialName="GitHub"

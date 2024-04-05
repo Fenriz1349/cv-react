@@ -254,7 +254,7 @@
         "logo": "../assets/apiLogo.png",
         "linkGithub" : ""
         },
-        {"name":"Numpy/ Pandas/ Matplotlib/ Seaborn",
+        {"name":"Pandas/ Matplotlib/ Seaborn",
         "logo":"../assets/pandasLogo.png",
         "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=python&sort="
         }
