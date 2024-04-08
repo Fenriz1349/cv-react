@@ -1,7 +1,7 @@
 .language-item{
     background-color: var(--ligthBlackBackground);
     width: 20vh;
-    height: 28vh;
+    min-height: 25vh;
     margin-left: 5vh;
     margin-bottom: 5vh;
     display: flex;

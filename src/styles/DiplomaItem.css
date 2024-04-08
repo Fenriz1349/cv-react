@@ -1,11 +1,11 @@
 .diploma-item{
     background-color: var(--ligthBlackBackground);
-    width: 25vh;
+    width: 35vh;
     margin-left: 5vh;
     margin-bottom: 5vh;
     display: flex;
     flex-direction: column;
-    width: 40vh;
+
 }
 .diploma-item h4 {
     margin-bottom: 0px;
@@ -19,4 +19,15 @@
 
 .diploma-top {
     display: flex;
+}
+
+@media only screen and (max-width: 600px){
+    .diploma-item{
+        width: 25vh;    
+    }
+
+    .diploma-top {
+        display: flex;
+        flex-direction: column;
+    }
 }
