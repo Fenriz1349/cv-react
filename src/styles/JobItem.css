@@ -1,6 +1,7 @@
 .job-item{
     background-color: var(--ligthBlackBackground);
     width: 35vh;
+    min-height: 16vh;
     margin-left: 5vh;
     margin-bottom: 5vh;
     display: flex;
@@ -21,11 +22,11 @@
     display: flex;
 }
 @media only screen and (max-width: 600px){
-.job-item{
-    width: 25vh;
+    .job-item{
+        width: 25vh;
+        }
+    .job-top {
+        display: flex;
+        flex-direction: column;
     }
-.job-top {
-    display: flex;
-    flex-direction: column;
-}
 }

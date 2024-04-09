@@ -1,5 +1,4 @@
 import jsonData from '../data/data.json';
-import "../styles/Language.css"; 
 import LanguageList from './LanguageList';
 import FrameworkList from './FrameworkList';
 

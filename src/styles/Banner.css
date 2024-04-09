@@ -25,6 +25,7 @@
 
 .banner .logo{
     width : 6vh;
+    height: 6vh;
     margin-top: 0.5vh;
 }
 .mobile-menu-toggle {
@@ -126,7 +127,7 @@
         width : 5.1vh;
         height: 5.1vh;
         margin-top: 0.2vh;
-        margin-left: -0.2vh;
+        margin-left: 0.3vh;
     }
 
     .mobile-menu-toggle {

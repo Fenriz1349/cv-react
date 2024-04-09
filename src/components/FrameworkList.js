@@ -5,6 +5,7 @@ import reactLogo from "../assets/reactLogo.png";
 import pandasLogo from "../assets/pandasLogo.png";
 import githubLogo from "../assets/githubLogo.png";
 import apiLogo from "../assets/apiLogo.png";
+import mysqlLogo from "../assets/mysqlLogo.png";
 import "../styles/LanguageList.css"; 
 
 function FrameworkList() {
@@ -32,6 +33,8 @@ function getLogo(frameworkName) {
         return githubLogo;
       case 'API Rest':
         return apiLogo;
+        case 'MySql':
+          return mysqlLogo;
       default:
         return swiftuiLogo;
     }

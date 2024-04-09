@@ -1,6 +1,7 @@
 .diploma-item{
     background-color: var(--ligthBlackBackground);
     width: 35vh;
+    min-height: 16vh;
     margin-left: 5vh;
     margin-bottom: 5vh;
     display: flex;

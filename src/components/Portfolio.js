@@ -1,4 +1,3 @@
-import "../styles/Portfolio.css"; 
 import PortfolioList from "./PortfolioList";
 
 

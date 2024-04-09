@@ -7,7 +7,8 @@ import phone from "../assets/phoneLogo.png"
 import github from "../assets/githubLogo.png";
 import linkedin from "../assets/linkedinLogo.png";
 import codewars from "../assets/codewarsLogo.png";
-import menuLogo from "../assets/menuLogo.png"
+import menuLogo from "../assets/menuLogo.png";
+import closeLogo from "../assets/closeLogo.png"
 import "../styles/Banner.css";
 import jsonData from '../data/data.json';
 
@@ -39,7 +40,7 @@ function Banner() {
         <img src={logo} alt="Logo principal" className="logoBanner"/>
       </button>
       <button onClick={toggleMobileMenu} className="mobile-menu-toggle">
-      <img src={menuLogo} alt="Logo menu" className="logoMenu"/>
+      <img src={!isMobileMenuOpen ? menuLogo :closeLogo} alt="Logo menu" className="logoMenu"/>
         <div className={`hamburger-icon ${isMobileMenuOpen ? 'open' : ''}`}></div>
       </button>
       <nav className={`nav-links${isMobileMenuOpen ? 'open' : ''}`}>
@@ -74,9 +75,6 @@ function Banner() {
         <div onClick={toggleMailModal}>
           <img src={mail} alt="mail" className="logo" />
         </div>
-        {/* <div>
-          <a href={`mailto:${jsonData.informations.mail}`}><img src={mail} alt="mail" className="logo" /></a>
-        </div> */}
         <div>
           <a href={jsonData.informations.github} rel="noreferrer" target="_blank"><img src={github} alt="github" className="logoSocial" /></a>
         </div>

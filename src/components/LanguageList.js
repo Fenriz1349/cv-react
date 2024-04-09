@@ -10,6 +10,7 @@ import sqlLogo from "../assets/sqlLogo.png";
 import htmlLogo from "../assets/htmlLogo.png";
 import cssLogo from "../assets/cssLogo.png";
 import typescriptLogo from "../assets/typescriptLogo.png";
+import phpLogo from "../assets/phpLogo.png"
 import "../styles/LanguageList.css"; 
 
 function LanguagesList() {
@@ -75,6 +76,8 @@ function getLogo(LanguageName) {
         return htmlLogo;
       case 'TypeScript':
         return typescriptLogo;
+      case 'Php' :
+        return phpLogo;
       default:
         return null;
     }

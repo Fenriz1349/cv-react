@@ -1,5 +1,4 @@
 import jsonData from '../data/data.json';
-import "../styles/Diplomas.css"; 
 import DiplomaList from './DiplomaList';
 
 function Diplomas() {

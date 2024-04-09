@@ -1,7 +1,7 @@
 {
     "francais":
         {"titreLanguage": "Langages",
-        "titreFramework" : "Frameworks / Technologies",
+        "titreFramework" : "Frameworks / Outils",
         "titreFormation": "Formations",
         "titreExperience":"Emplois",
         "poste":"Développeur d'application IOS en recherche d'alternance",
@@ -224,6 +224,10 @@
         "logo":"../assets/sqlLogo.png",
         "linkGithub" : ""
         },
+        {"name":"Php",
+        "logo":"../assets/phpLogo.png",
+        "linkGithub" : ""
+        },
         {"name":"HTML5 et CSS3",
         "logo":"../assets/htmlLogo.png",
         "linkGithub" : "https://github.com/Fenriz1349?tab=repositories&q=&type=&language=html&sort="
@@ -252,6 +256,10 @@
         },
        {"name":"API Rest",
         "logo": "../assets/apiLogo.png",
+        "linkGithub" : ""
+        },
+        {"name":"MySql",
+        "logo": "../assets/mysqlLogo.png",
         "linkGithub" : ""
         },
         {"name":"Pandas/ Matplotlib/ Seaborn",
