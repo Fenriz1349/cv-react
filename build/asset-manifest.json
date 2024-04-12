@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cv-react/static/css/main.90dadb8b.css",
-    "main.js": "/cv-react/static/js/main.fa059e9c.js",
+    "main.js": "/cv-react/static/js/main.d26db649.js",
     "static/media/cardFinderScreenshot.png": "/cv-react/static/media/cardFinderScreenshot.a4969449017a3eea62b7.png",
     "static/media/logoJC.jpg": "/cv-react/static/media/logoJC.00ecfeb31e3ff3ac3893.jpg",
     "static/media/cvReactScreenshot.png": "/cv-react/static/media/cvReactScreenshot.39a891bccbdcfc8e82d4.png",
@@ -17,10 +17,10 @@
     "static/media/linkedinLogo.png": "/cv-react/static/media/linkedinLogo.c57629027e3f0bc4c5b0.png",
     "index.html": "/cv-react/index.html",
     "main.90dadb8b.css.map": "/cv-react/static/css/main.90dadb8b.css.map",
-    "main.fa059e9c.js.map": "/cv-react/static/js/main.fa059e9c.js.map"
+    "main.d26db649.js.map": "/cv-react/static/js/main.d26db649.js.map"
   },
   "entrypoints": [
     "static/css/main.90dadb8b.css",
-    "static/js/main.fa059e9c.js"
+    "static/js/main.d26db649.js"
   ]
 }
