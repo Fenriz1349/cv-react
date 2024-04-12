@@ -5,7 +5,7 @@
         "titreFormation": "Formations",
         "titreExperience":"Emplois",
         "poste":"Développeur d'application IOS en recherche d'alternance",
-        "intro": "Bonjours à toi ! <br/> Je m'appelle Julien et je suis un Lillois passionné d'informatique et très curieux. <br> Je viens de terminer 2 formations en  dev d'application mobile iOS dans l'Apple Fondation Program Extended. <br> Je me forme aussi en autodiacte au dev Web et Android, ainsi qu'à la gestion d'API. <br> Découvrez ici mes projets, mes avancées dans les langages et la programmation ainsi que mes formations et expériences professionnelles passées <br> Je suis actuellement en recherche d'alternance ou de mentorat donc n'hésitez pas à me contacter !",
+        "intro": "Bonjour à toi ! <br/> Je m'appelle Julien et je suis un Lillois passionné d'informatique et très curieux. <br> Je viens de terminer deux formations en développement d'application mobile iOS dans l'Apple Fondation Program Extended. <br> Je me forme aussi en autodidacte au développement Web et Android, ainsi qu'à la gestion d'API. <br> Découvrez ici mes projets, mes avancées dans les langages et la programmation, ainsi que mes formations et expériences professionnelles passées. <br> Je suis actuellement en recherche d'alternance ou de mentorat donc n'hésitez pas à me contacter !",
         "softskills" :[
             {"name":"Curiosité",
             "logo": "../assets/curiositeLogo.png",
@@ -13,7 +13,7 @@
             },
             {"name":"Organisation",
             "logo": "../assets/organisationLogo.png",
-            "content": "D'où mon appétence pour le backend. Dans ma vie perso ou dans mes anciens emplois j'ai toujours aimé quand les choses étaient bien rangées. Un gain de temps et du confort pour retrouver les bonnes informations."
+            "content": "C'est pourquoi je suis particulièrement attiré par le backend. Dans ma vie personnelle et dans mes expériences professionnelles antérieures, j'ai toujours eu un penchant pour l'organisation. Je trouve qu'avoir des données bien rangées offre un gain de temps et un confort supplémentaire pour retrouver les bonnes informations."
             },
             {"name":"Autodidacte",
             "logo": "../assets/autodidacteLogo.png",
