@@ -1,5 +1,6 @@
 import FrameworkItem from './FrameworkItem';
 import jsonData from '../data/data.json'; 
+import defaultLogo from "../assets/defaultLogo.png";
 import swiftuiLogo from "../assets/swiftuiLogo.png";
 import reactLogo from "../assets/reactLogo.png";
 import pandasLogo from "../assets/pandasLogo.png";
@@ -33,10 +34,14 @@ function getLogo(frameworkName) {
         return githubLogo;
       case 'API Rest':
         return apiLogo;
-        case 'MySql':
+      case 'MySql':
           return mysqlLogo;
-      default:
+      case "SwiftUI" :
         return swiftuiLogo;
+      case "SwiftChart /SwiftData" :
+          return swiftuiLogo;
+      default:
+        return defaultLogo;
     }
   }
 export default FrameworkList;

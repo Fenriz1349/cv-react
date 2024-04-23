@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import defaultLogo from "../assets/defaultLogo.png";
 import LanguageItem from './LanguageItem';
 import axios from 'axios';
 import jsonData from '../data/data.json'; 
@@ -10,7 +11,8 @@ import sqlLogo from "../assets/sqlLogo.png";
 import htmlLogo from "../assets/htmlLogo.png";
 import cssLogo from "../assets/cssLogo.png";
 import typescriptLogo from "../assets/typescriptLogo.png";
-import phpLogo from "../assets/phpLogo.png"
+import phpLogo from "../assets/phpLogo.png";
+import dartLogo from "../assets/dardLogo.png";
 import "../styles/LanguageList.css"; 
 
 function LanguagesList() {
@@ -78,8 +80,10 @@ function getLogo(LanguageName) {
         return typescriptLogo;
       case 'Php' :
         return phpLogo;
+      case 'Dart' :
+        return dartLogo;
       default:
-        return null;
+        return defaultLogo;
     }
   }
 export default LanguagesList;

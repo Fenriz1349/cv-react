@@ -235,6 +235,10 @@
         {"name":"TypeScript",
         "logo":"../assets/typescriptLogo.png",
         "linkGithub" : ""
+        },
+        {"name":"Dart",
+        "logo":"../assets/dartLogo.png",
+        "linkGithub" : ""
         }
     ],
     "frameworks":[
