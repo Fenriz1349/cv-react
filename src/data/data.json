@@ -272,6 +272,12 @@
         }
     ],
     "portfolio":[
+        {"name":"AllAccount",
+        "screenshot":"../assets/allAccounttScreenshot.png",
+        "frameworks" : "SwiftUI, SwiftData et SwiftChart",
+        "content" :"Projet personnel d'app iOS de gestion financière. Un moyen d'entrée toutes ses transactions et d'avoir une vue d'essemble de tous ses comptes. Et un exercice pour m'entrainer sur SwiftData et SwiftChart",
+        "linkGithub" : "https://github.com/Fenriz1349/AllAccount"
+        },
         {"name":"CV en ligne React",
         "screenshot":"../assets/cvreactScreenshot.png",
         "frameworks" : "React",

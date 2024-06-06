@@ -7,6 +7,7 @@ import calculatriceScreenshot from "../assets/calculatriceScreenshot.png";
 import cvJSScreenshot from "../assets/cvJSScreenshot.png";
 import cardfinderScreenshot from '../assets/cardFinderScreenshot.png';
 import lotoScreenshot from "../assets/lotoScreenshot.png"
+import allAccountScreenshot from "../assets/allAccountScreenshot.png"
 import "../styles/PortfolioList.css"; 
 
 
@@ -29,6 +30,8 @@ function PortfolioList() {
 
 function getLogo(screenshot) {
     switch (screenshot) {
+      case 'AllAccount':
+        return allAccountScreenshot;
       case 'CV en ligne React':
         return cvReactScreenshot;
       case 'DoItYouPlan' :
