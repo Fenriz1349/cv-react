@@ -25,7 +25,6 @@ function App() {
         <Portfolio />
         <Diplomas />
         <Jobs />
-
       </div>
     )
 }
